@@ -3,6 +3,7 @@ import Vuelidate from "vuelidate";
 import App from "./App.vue";
 import dateFilter from "@/filters/date.filter";
 import messagePlugin from "@/utils/message.plugin";
+import Loader from "@/components/app/Loader";
 import router from "./router";
 import store from "./store";
 import "./registerServiceWorker";
@@ -17,6 +18,7 @@ Vue.config.productionTip = false;
 Vue.use(messagePlugin);
 Vue.use(Vuelidate);
 Vue.filter("date", dateFilter);
+Vue.component("Loader", Loader);
 
 firebase.initializeApp({
   apiKey: "AIzaSyBi1HRVr6Wjde4FOZvApUqzrO06VP8PjKE",

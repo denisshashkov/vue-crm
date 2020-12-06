@@ -1,4 +1,6 @@
 /* eslint-disable no-undef */
+import localizeFilter from "@/filters/localize.filter";
+
 export default {
   install(Vue) {
     Vue.prototype.$message = function(html) {
@@ -6,7 +8,7 @@ export default {
     };
 
     Vue.prototype.$error = function(html) {
-      M.toast({ html: `${html}` });
+      M.toast({ html: `[${localizeFilter("Error")}]: ${html}` });
     };
   }
 };

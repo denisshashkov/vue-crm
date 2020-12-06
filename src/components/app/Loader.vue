@@ -1,6 +1,6 @@
 <template>
   <div class="app-loader">
-    <div class="preloader-wrapper big active">
+    <div class="preloader-wrapper active">
       <div class="spinner-layer" :class="color">
         <div class="circle-clipper left">
           <div class="circle"></div>
@@ -21,12 +21,11 @@ export default {
   computed: {
     color() {
       const colors = [
-        "spinner-blue",
-        "spinner-red",
-        "spinner-yellow",
-        "spinner-green"
+        "spinner-red-only",
+        "spinner-blue-only",
+        "spinner-green-only"
       ];
-      return colors[Math.floor(Math.random() * 4)];
+      return colors[Math.floor(Math.random() * 3)];
     }
   }
 };

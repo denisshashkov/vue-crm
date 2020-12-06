@@ -19,7 +19,7 @@
   "Message_EnterDescription": "Введите описание",
   "Message_CategoryTitle": "Введите название категории",
   "Message_MinLength": "Минимальная значение",
-  "Category_HasBeenCreated": "Категория была создана",
+  "Category_HasBeenCreated": "Категория была успешно создана",
   "Category_HasBeenUpdated": "Категория упешно обновлена",
   "SelectCategory": "Выберите категорию",
   "Amount": "Сумма",

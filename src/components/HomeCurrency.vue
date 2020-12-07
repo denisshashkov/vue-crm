@@ -17,8 +17,8 @@
           <tbody>
             <tr v-for="cur of currencies" :key="cur">
               <td>{{ cur }}</td>
-              <td>{{ rates[cur].toFixed(2) }}</td>
-              <td>{{ date | date("date") }}</td>
+              <td>{{ conversion_rates[cur].toFixed(2) }}</td>
+              <td>{{ time_last_update_utc | date("date") }}</td>
             </tr>
           </tbody>
         </table>
@@ -29,7 +29,7 @@
 
 <script>
 export default {
-  props: ["rates", "date"],
+  props: ["conversion_rates", "time_last_update_utc"],
   data: () => ({
     currencies: ["RUB", "USD", "EUR"]
   })

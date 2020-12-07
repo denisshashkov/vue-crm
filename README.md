@@ -1,6 +1,6 @@
 # vue-crm
 
-# vue-crm-3492f.firebaseapp.com
+# https://vue-crm-3492f.firebaseapp.com/login?message=login
 
 
 ## Project setup

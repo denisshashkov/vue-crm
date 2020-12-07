@@ -1,5 +1,4 @@
 # vue-crm
 
-## https://vue-crm-3492f.firebaseapp.com/login?message=login
-
+## https://vue-crm-3492f.web.app/login?message=login
 
